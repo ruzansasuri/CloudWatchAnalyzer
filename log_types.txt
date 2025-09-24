@@ -1,0 +1,15 @@
+logs
+'Top similarities'
+'Retrieved Context chunk'
+'Request origin'
+'Full event'
+'User input'
+'Chat result'
+
+errors
+'error_occurred'
+
+metrics
+"Full Event Processing"
+"CORS and Validation"
+"Chat Processing"

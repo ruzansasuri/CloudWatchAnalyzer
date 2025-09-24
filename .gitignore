@@ -1,0 +1,9 @@
+# VS Code workspace files
+*.code-workspace
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Output
+output/*
