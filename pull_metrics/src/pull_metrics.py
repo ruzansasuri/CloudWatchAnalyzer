@@ -148,7 +148,7 @@ def process_logs(logs):
 def export_cloudwatch_logs_to_csv(
     log_group_name,
     start_time_days_ago=7,
-    output_file='cloudwatch_logs.csv',
+    output_file='output/cloudwatch_logs.csv',
     region='us-east-1',
     profile_name=None
 ):
@@ -172,8 +172,8 @@ if __name__ == "__main__":
     # Export logs
     export_cloudwatch_logs_to_csv(
         log_group_name=LOG_GROUP_NAME,
-        start_time_days_ago=7,
-        output_file='output/lambda_logs.csv',
+        start_time_days_ago=365,
+        output_file='generated_assets/lambda_logs.csv',
         region=AWS_REGION,
         profile_name=SSO_PROFILE
     )
